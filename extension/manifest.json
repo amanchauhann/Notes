@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Timestamp Marker",
+
+    "version": "1.0",
+
+    "description": "Allows you to save and annotate YouTube Timestamps.",
+
+    "icons": {
+        "48": "../assets/placeholder_icon-48.png"
+    },
+
+    "browser_action": {
+        "default_icon": "../assets/placeholder_icon-48.png",
+        "default_popup": "./html/main.html"
+    }
+}
