@@ -8,11 +8,11 @@
     "description": "Allows you to save and annotate YouTube Timestamps.",
 
     "icons": {
-        "48": "../assets/placeholder_icon-48.png"
+        "48": "../../assets/placeholder_icon-48.png"
     },
 
     "browser_action": {
-        "default_icon": "../assets/placeholder_icon-48.png",
+        "default_icon": "../../assets/placeholder_icon-48.png",
         "default_popup": "./html/main.html"
     }
 }
