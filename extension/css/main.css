@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root { font-family: "Roboto", sans-serif; }
+
+::-webkit-input-placeholder { font-style: italic; }
+
+:-moz-placeholder {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+:-ms-input-placeholder { font-style: italic; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: minmax(0px, auto);
+}
+
+input {
+    margin: 1rem;
+    border: 1px solid #333;
+    border-radius: .3rem;
+    padding: .2rem;
+}
+
+input#vid_title { grid-column: 1 / 2; }
+
+input#timestamp { grid-column: 2 / 3; }
+
+button {
+    grid-row: 3 / 4;
+    margin: .5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+#project_pick {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#vid_title, #timestamp { grid-row: 1 / 2; }
+
+#notes {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    border: 1px solid #333;
+    border-radius: .3rem;
+    padding: .2rem;
+    resize: none;
+}
+
+#add {
+    color: white;
+    background-color: #0C8CE9;
+    font-weight: bold;
+    grid-column: 3 / 4;
+}
+
+#add:hover { background-color: #0080DD; }
+
+#cancel {
+    grid-column: 4 / 5;
+    padding: .2rem .5rem .2rem .5rem;
+}

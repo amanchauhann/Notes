@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
         <title>Timestamp Marker</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/main.css">
     </head>
 
     <body>
-        <p>Hello, World!</p>
+        <form>
+            <select name="project_pick" id="project_pick">
+                <option value="project_1">Project 1</option>
+            </select>
+
+            <input type="text" name="vid_title" id="vid_title" placeholder="Unable to retrieve data">
+            <input type="text" name="timestamp" id="timestamp" placeholder="Unable to retrieve data">
+            <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Enter your notes here..."></textarea>
+
+            <button type="submit" id="add">Add</button>
+            <button type="reset" id="cancel">Cancel</button>
+        </form>
     </body>
 </html>
